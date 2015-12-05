@@ -19,7 +19,7 @@
 body {
   font-size: 14px;
   font-family: telexregular, Hiragino Sans GB, Microsoft YaHei, sans-serif;
-  color: #555;
+  color: #333;
   background-color: #f9f9f9;
   -webkit-font-smoothing: antialiased; }
 
@@ -46,7 +46,7 @@ a, header #header h1 a, article .title a, article .meta .tags a, article .divide
   text-decoration: none;
   color: #127F78; }
   a:hover, header #header h1 a:hover, article .title a:hover, article .meta .tags a:hover, article .divider a:hover {
-    color: #127F78; }
+    color: #15aba1; }
 
 blockquote, pre code {
   background-color: #f8f8f8;
@@ -97,7 +97,7 @@ header {
     header #header h1 {
       font-family: telexregular, Hiragino Sans GB, Microsoft YaHei, sans-serif; }
       header #header h1 a {
-        color: #a9a9a9;
+        color: #127F78;
         display: block; }
   header nav {
     display: inline-block;
@@ -151,7 +151,7 @@ article {
   article .title {
     font-family: telexregular, Hiragino Sans GB, Microsoft YaHei, sans-serif; }
     article .title header #header h1 a, header #header h1 article .title a, article .title a, article .title .meta .tags a, article .meta .tags .title a {
-      color: #777; }
+      color: #127F78; }
   article .meta {
     display: block;
     overflow: auto;
@@ -237,7 +237,7 @@ footer {
     font-family: "FontAwesome";
     padding-right: 5px; }
   .like-wrapper .like-button:hover {
-    color: #127F78; }
+    color: #15aba1; }
   .like-wrapper .like-button.liked:hover {
     color: #999; }
 
