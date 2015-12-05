@@ -135,7 +135,8 @@ ul.listing {
     ul.listing li.listing-item a, ul.listing li.listing-item header #header h1 a, header #header h1 ul.listing li.listing-item a {
       padding: .2em 0 .2em 2em; }
     ul.listing li.listing-item time {
-      color: #999; }
+      color: #999;
+      padding-left: 19px; }
     ul.listing li.listing-item:hover {
       background-color: #f9f9f9; }
     ul.listing li.listing-seperator {
