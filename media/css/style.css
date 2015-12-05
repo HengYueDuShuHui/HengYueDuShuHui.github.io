@@ -139,10 +139,18 @@ ul.listing {
     ul.listing li.listing-item:hover {
       background-color: #f9f9f9; }
     ul.listing li.listing-seperator {
-      font-family: telexregular, Hiragino Sans GB, Microsoft YaHei, sans-serif; }
+      font-family: telexregular, Hiragino Sans GB, Microsoft YaHei, sans-serif;
+      font-weight: bold;}
       ul.listing li.listing-seperator:before {
-        content: "⭠ ";
-        color: #ccc; }
+        content: " ";
+        color: #ccc;
+        float: left;
+        display: block;
+        width: 10px;
+        height: 10px;
+        background-color: #127F78;
+        margin-right: 10px;
+        margin-top: 8px;}
 
 article {
   margin: 2em 0; }
