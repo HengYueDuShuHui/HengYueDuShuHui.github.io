@@ -19,7 +19,7 @@
 body {
   font-size: 14px;
   font-family: telexregular, Hiragino Sans GB, Microsoft YaHei, sans-serif;
-  color: #555;
+  color: #333;
   background-color: #f9f9f9;
   -webkit-font-smoothing: antialiased; }
 
@@ -42,11 +42,11 @@ hr {
   color: #fff;
   background-color: #333; }
 
-a, header #header h1 a, article .title a, article .meta .tags a, article .divider a {
+a, header #header h1 a, article .title a, article .meta .tags a, article .divider a,#content article .title h2 {
   text-decoration: none;
-  color: #bb2222; }
+  color: #127F78; }
   a:hover, header #header h1 a:hover, article .title a:hover, article .meta .tags a:hover, article .divider a:hover {
-    color: #dd1144; }
+    color: #15aba1; }
 
 blockquote, pre code {
   background-color: #f8f8f8;
@@ -97,7 +97,7 @@ header {
     header #header h1 {
       font-family: telexregular, Hiragino Sans GB, Microsoft YaHei, sans-serif; }
       header #header h1 a {
-        color: #a9a9a9;
+        color: #127F78;
         display: block; }
   header nav {
     display: inline-block;
@@ -135,14 +135,23 @@ ul.listing {
     ul.listing li.listing-item a, ul.listing li.listing-item header #header h1 a, header #header h1 ul.listing li.listing-item a {
       padding: .2em 0 .2em 2em; }
     ul.listing li.listing-item time {
-      color: #999; }
+      color: #999;
+      padding-left: 19px; }
     ul.listing li.listing-item:hover {
       background-color: #f9f9f9; }
     ul.listing li.listing-seperator {
-      font-family: telexregular, Hiragino Sans GB, Microsoft YaHei, sans-serif; }
+      font-family: telexregular, Hiragino Sans GB, Microsoft YaHei, sans-serif;
+      font-weight: bold;}
       ul.listing li.listing-seperator:before {
-        content: "⭠ ";
-        color: #ccc; }
+        content: " ";
+        color: #ccc;
+        float: left;
+        display: block;
+        width: 10px;
+        height: 10px;
+        background-color: #127F78;
+        margin-right: 10px;
+        margin-top: 8px;}
 
 article {
   margin: 2em 0; }
@@ -151,7 +160,7 @@ article {
   article .title {
     font-family: telexregular, Hiragino Sans GB, Microsoft YaHei, sans-serif; }
     article .title header #header h1 a, header #header h1 article .title a, article .title a, article .title .meta .tags a, article .meta .tags .title a {
-      color: #777; }
+      color: #127F78; }
   article .meta {
     display: block;
     overflow: auto;
@@ -237,7 +246,7 @@ footer {
     font-family: "FontAwesome";
     padding-right: 5px; }
   .like-wrapper .like-button:hover {
-    color: #dd1144; }
+    color: #15aba1; }
   .like-wrapper .like-button.liked:hover {
     color: #999; }
 
